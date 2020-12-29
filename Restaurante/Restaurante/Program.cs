@@ -37,13 +37,50 @@ namespace Restaurante
             while (!demanat)
             {
                 Console.WriteLine("Introdueix un plat:");
-                plats.Add(Console.ReadLine());
-                Console.WriteLine("Vols demanar algun plat mes? (1: Si / 2: No)");
-                int contestació = Convert.ToInt32(Console.ReadLine());
-                if (contestació == 2)
+                try
                 {
-                    demanat = true;
+                    string platString = Console.ReadLine();
+                    bool notrobat = true;
+                    for (int i = 0; i < carta.Length; i++)
+                    {
+                        if (platString == carta[i])
+                        {
+                            notrobat = false;
+                        }
+                    }
+                    if (notrobat)
+                    {
+                        throw new System.NullReferenceException("Plat no existeix");
+                    }
+                    plats.Add(Console.ReadLine());
                 }
+                catch (System.NullReferenceException ex)
+                {
+                    Console.WriteLine(ex);
+                }
+
+                try
+                {
+                    Console.WriteLine("Vols demanar algun plat mes? (1: Si / 2: No)");
+                    int contestació = Convert.ToInt32(Console.ReadLine());
+                    if (contestació == 2)
+                    {
+                        demanat = true;
+                    }
+                    else if (contestació == 1)
+                    {
+                        demanat = false;
+                    }
+                    else
+                    {
+                        throw new System.InvalidProgramException("Opció invalida");
+                    }
+                }
+                catch (System.InvalidProgramException ex)
+                {
+                    Console.WriteLine(ex);
+                }
+                
             }
             preuMenjar = ComprobarInformacioIPreu(carta, preus, plats);
             if (preuMenjar == 0)
