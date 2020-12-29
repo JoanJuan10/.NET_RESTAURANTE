@@ -1,0 +1,13 @@
+C:\Users\Joan\source\repos\JoanJuan10\.NET_RESTAURANTE\Restaurante\Restaurante\bin\Debug\netcoreapp3.1\Restaurante.exe
+C:\Users\Joan\source\repos\JoanJuan10\.NET_RESTAURANTE\Restaurante\Restaurante\bin\Debug\netcoreapp3.1\Restaurante.deps.json
+C:\Users\Joan\source\repos\JoanJuan10\.NET_RESTAURANTE\Restaurante\Restaurante\bin\Debug\netcoreapp3.1\Restaurante.runtimeconfig.json
+C:\Users\Joan\source\repos\JoanJuan10\.NET_RESTAURANTE\Restaurante\Restaurante\bin\Debug\netcoreapp3.1\Restaurante.runtimeconfig.dev.json
+C:\Users\Joan\source\repos\JoanJuan10\.NET_RESTAURANTE\Restaurante\Restaurante\bin\Debug\netcoreapp3.1\Restaurante.dll
+C:\Users\Joan\source\repos\JoanJuan10\.NET_RESTAURANTE\Restaurante\Restaurante\bin\Debug\netcoreapp3.1\Restaurante.pdb
+C:\Users\Joan\source\repos\JoanJuan10\.NET_RESTAURANTE\Restaurante\Restaurante\obj\Debug\netcoreapp3.1\Restaurante.csprojAssemblyReference.cache
+C:\Users\Joan\source\repos\JoanJuan10\.NET_RESTAURANTE\Restaurante\Restaurante\obj\Debug\netcoreapp3.1\Restaurante.AssemblyInfoInputs.cache
+C:\Users\Joan\source\repos\JoanJuan10\.NET_RESTAURANTE\Restaurante\Restaurante\obj\Debug\netcoreapp3.1\Restaurante.AssemblyInfo.cs
+C:\Users\Joan\source\repos\JoanJuan10\.NET_RESTAURANTE\Restaurante\Restaurante\obj\Debug\netcoreapp3.1\Restaurante.csproj.CoreCompileInputs.cache
+C:\Users\Joan\source\repos\JoanJuan10\.NET_RESTAURANTE\Restaurante\Restaurante\obj\Debug\netcoreapp3.1\Restaurante.dll
+C:\Users\Joan\source\repos\JoanJuan10\.NET_RESTAURANTE\Restaurante\Restaurante\obj\Debug\netcoreapp3.1\Restaurante.pdb
+C:\Users\Joan\source\repos\JoanJuan10\.NET_RESTAURANTE\Restaurante\Restaurante\obj\Debug\netcoreapp3.1\Restaurante.genruntimeconfig.cache
