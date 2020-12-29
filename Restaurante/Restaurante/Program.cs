@@ -28,7 +28,7 @@ namespace Restaurante
             {
                 cartaD.Add(carta[i], preus[i]);
             }
-           // MostrarCarta(cartaD);
+            MostrarCarta(cartaD);
             Console.WriteLine("Que vols menjar?");
 
             bool demanat = false;
@@ -101,7 +101,7 @@ namespace Restaurante
             Console.WriteLine("Carta:");
             foreach (var menjar in cartaD)
             {
-                Console.WriteLine("{0] - {1} euros", menjar.Key, menjar.Value);
+                Console.WriteLine("{0} - {1} euros", menjar.Key, menjar.Value);
             }
         }
         static int ComprobarInformacioIPreu (string[] carta,int[] preus, ArrayList plats)
